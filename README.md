@@ -21,7 +21,7 @@ Each file is a Jupyter notebook (`.ipynb`) with hands-on examples, short notes, 
 - Loops (for / while)
 - Dictionaries & Sets   
 - OOP Basics
-- **NumPy Practice** (`04_numpy/`) – Arrays, reshaping, stats, broadcasting & mini-projects
+- **NumPy Practice** – Arrays, reshaping, stats, broadcasting & mini-projects
 ---
 
 

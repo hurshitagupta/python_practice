@@ -33,12 +33,30 @@ Concepts practiced:
 - Conditional filtering
 - Basic statistics with NumPy
 
-> File: `grade_analytics_tool.ipynb
+> File: `grade_analytics_tool.ipynb`
 
 ---
 
-### ✅ Sudoku Validator *(Coming Soon)*
+### ✅ Sudoku Validator 
 Checks if a 9x9 Sudoku board is valid using 2D arrays and logical checks.
+
+This script checks whether a 9x9 Sudoku board is valid by verifying:
+
+- All **rows** contain digits from 1 to 9 without repetition
+- All **columns** are unique and complete
+- All **3x3 sub-boxes** are valid
+
+📌 **Tech Used**:  
+- `NumPy` for array manipulation and checks  
+- `np.unique()` for detecting duplicates  
+- `np.arange()` for reference array [1–9]
+
+🎯 **Concepts Practiced**:
+- Array slicing
+- Flattening arrays
+- Logical validation using NumPy
+
+> File: `sudoku_validator.ipynb`
 
 ---
 

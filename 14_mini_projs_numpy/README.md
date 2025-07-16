@@ -1,73 +1,99 @@
-# Mini Projects using NumPy
+# 💡 Mini Projects Using NumPy
 
-This folder contains beginner-friendly mini projects built using NumPy. Each project focuses on applying different NumPy concepts in fun and practical ways.
+This folder contains beginner-friendly mini projects built with **NumPy**. Each project explores different concepts through fun, practical use cases that strengthen foundational Python + NumPy skills.
 
-## Projects
+---
 
-### 🎲 Dice Roll Simulator
-Simulates rolling two dice multiple times and analyzes the frequency of the sums.
+## 📁 Projects
 
-Built using:
-- **Core Python** (for logic building and flow control)
-- **NumPy** (for efficient array operations and randomness)
+### 🎲 Dice Roll Simulator  
+**Simulates rolling two dice multiple times** and analyzes the frequency distribution of their summed outcomes.
 
-Concepts practiced:
+**Built with:**
+- Core Python (for logic & flow control)
+- NumPy (for randomness and array efficiency)
+
+**Concepts Practiced:**
 - Random number generation
-- Loops and conditionals
+- Conditional logic & loops
 - Dictionary usage
 - NumPy arrays
-- Unique value counting
-> File: `dice_roll_simulator.ipynb`
+- Counting unique values with `np.unique`
+
+**File:** `dice_roll_simulator.ipynb`
 
 ---
 
-### 📊 Grade Analytics Tool 
-A project to calculate average grades, analyze student performance, and find top performers using NumPy operations.
+### 📊 Grade Analytics Tool  
+Analyzes student grade data to compute averages, evaluate performance, and identify top scorers using NumPy.
 
-Built using:
-- **NumPy** (for statistical calculations and array manipulation)
+**Built with:**
+- NumPy (for statistical analysis and efficient data handling)
 
-Concepts practiced:
-- NumPy array creation
-- Mean, min, max functions
+**Concepts Practiced:**
+- Array creation and manipulation
+- Statistical functions (`mean`, `min`, `max`)
 - Conditional filtering
-- Basic statistics with NumPy
+- Basic data summarization
 
-> File: `grade_analytics_tool.ipynb`
+**File:** `grade_analytics_tool.ipynb`
 
 ---
 
-### ✅ Sudoku Validator 
-Checks if a 9x9 Sudoku board is valid using 2D arrays and logical checks.
+### ✅ Sudoku Validator  
+Validates a 9×9 Sudoku board by checking whether all rows, columns, and 3×3 subgrids contain unique digits from 1 to 9.
 
-This script checks whether a 9x9 Sudoku board is valid by verifying:
+**Built with:**
+- NumPy (for matrix manipulation and logic)
 
-- All **rows** contain digits from 1 to 9 without repetition
-- All **columns** are unique and complete
-- All **3x3 sub-boxes** are valid
+**Concepts Practiced:**
+- 2D array slicing and flattening
+- Uniqueness checks with `np.unique`
+- Logical validations across axes
+- Grid-based indexing
 
-📌 **Tech Used**:  
-- `NumPy` for array manipulation and checks  
-- `np.unique()` for detecting duplicates  
-- `np.arange()` for reference array [1–9]
+**File:** `sudoku_validator.ipynb`
 
-🎯 **Concepts Practiced**:
-- Array slicing
-- Flattening arrays
-- Logical validation using NumPy
+---
 
-> File: `sudoku_validator.ipynb`
+### 🩺 Patient Vitals Monitor  
+Simulates vitals for 10 patients over 7 days and analyzes patterns using 3D NumPy arrays.
+
+**Vitals Tracked:**
+- Temperature (°C)
+- Pulse (bpm)
+- Oxygen Saturation (%)
+
+**Data Shape:** `(10 patients × 7 days × 3 vitals)`
+
+**Tasks Covered:**
+1. Generate realistic random vitals
+2. Compute per-patient averages
+3. Identify fever days (Temp > 37.5°C)
+4. Flag patients with O₂ < 92%
+
+**Concepts Practiced:**
+- 3D array creation and reshaping
+- Indexing, slicing, and masking
+- Aggregation (`mean`, `any`)
+- Boolean conditions with `np.where`
+
+**File:** `patient_vitals_monitor.ipynb`
 
 ---
 
 ## Requirements
-- Python 3.x
+- Python 3.x  
 - NumPy
 
+---
+
 ## How to Run
-Open the `.ipynb` files in Jupyter Notebook or VS Code and run the cells.
+Open the `.ipynb` files in **Jupyter Notebook** or **VS Code**, and run the cells interactively.
 
 ---
 
 ## Purpose
-These projects are part of my learning journey in data analytics and NumPy. More to come soon!
+These mini-projects are part of my hands-on journey to master **NumPy** and build real-world intuition for **data analysis and array operations**.
+
+More projects coming soon! 🌱✨
